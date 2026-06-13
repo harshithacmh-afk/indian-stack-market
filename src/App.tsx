@@ -206,7 +206,7 @@ export default function App() {
       </main>
 
       {/* Bottom Nav */}
-      <nav className="fixed bottom-0 left-0 right-0 max-w-md mx-auto bg-[#0B1426]/95 backdrop-blur-md border-t border-white/5 px-6 py-3 flex justify-around">
+      <nav className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md bg-[#0B1426]/95 backdrop-blur-md border-t border-white/5 px-6 py-3 flex justify-around">
         <button
           onClick={() => setActiveTab('dashboard')}
           className={`flex flex-col items-center gap-1 px-6 py-1 rounded-xl transition-colors ${
